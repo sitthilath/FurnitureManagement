@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Guna2HtmlLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="Guna2HtmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Guna2HtmlLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Guna2HtmlLabel1.Text" xml:space="preserve">
+    <value>ເພີ່ມສິນຄ້າ</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel1.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Guna2Separator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="Guna2Separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 10</value>
+  </data>
+  <data name="Guna2Separator1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.Name" xml:space="preserve">
+    <value>Guna2Separator1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Guna2GroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="Guna2HtmlLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 250</value>
+  </data>
+  <data name="Guna2HtmlLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="Guna2HtmlLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Guna2HtmlLabel8.Text" xml:space="preserve">
+    <value>ປະເພດ :</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel8.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel8</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel8.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel8.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="combo_catagory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="combo_catagory.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="combo_catagory.Items" xml:space="preserve">
+    <value>ປະເພດ</value>
+  </data>
+  <data name="combo_catagory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 282</value>
+  </data>
+  <data name="combo_catagory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 36</value>
+  </data>
+  <data name="combo_catagory.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;combo_catagory.Name" xml:space="preserve">
+    <value>combo_catagory</value>
+  </data>
+  <data name="&gt;&gt;combo_catagory.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;combo_catagory.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;combo_catagory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Guna2HtmlLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 18pt</value>
+  </data>
+  <data name="Guna2HtmlLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 383</value>
+  </data>
+  <data name="Guna2HtmlLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 35</value>
+  </data>
+  <data name="Guna2HtmlLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Guna2HtmlLabel7.Text" xml:space="preserve">
+    <value>ກີບ</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel7.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel7</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel7.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel7.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_price.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="txt_price.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 378</value>
+  </data>
+  <data name="txt_price.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 49</value>
+  </data>
+  <data name="txt_price.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txt_price.Name" xml:space="preserve">
+    <value>txt_price</value>
+  </data>
+  <data name="&gt;&gt;txt_price.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_price.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_price.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Guna2HtmlLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 346</value>
+  </data>
+  <data name="Guna2HtmlLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 28</value>
+  </data>
+  <data name="Guna2HtmlLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Guna2HtmlLabel6.Text" xml:space="preserve">
+    <value>ລາຄາ :</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel6.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel6</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel6.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel6.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_qty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="txt_qty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 282</value>
+  </data>
+  <data name="txt_qty.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_qty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 49</value>
+  </data>
+  <data name="txt_qty.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_qty.Name" xml:space="preserve">
+    <value>txt_qty</value>
+  </data>
+  <data name="&gt;&gt;txt_qty.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_qty.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_qty.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Guna2HtmlLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 250</value>
+  </data>
+  <data name="Guna2HtmlLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="Guna2HtmlLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Guna2HtmlLabel5.Text" xml:space="preserve">
+    <value>ຈຳນວນ :</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel5.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel5</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel5.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel5.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_name.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="txt_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 186</value>
+  </data>
+  <data name="txt_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 49</value>
+  </data>
+  <data name="txt_name.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_name.Name" xml:space="preserve">
+    <value>txt_name</value>
+  </data>
+  <data name="&gt;&gt;txt_name.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_name.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_name.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Guna2HtmlLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 154</value>
+  </data>
+  <data name="Guna2HtmlLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 28</value>
+  </data>
+  <data name="Guna2HtmlLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Guna2HtmlLabel4.Text" xml:space="preserve">
+    <value>ຊື່ສິນຄ້າ :</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel4.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel4</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel4.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txt_id.AccessibleDescription" xml:space="preserve">
+    <value>aaaaa</value>
+  </data>
+  <data name="txt_id.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="txt_id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 94</value>
+  </data>
+  <data name="txt_id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 49</value>
+  </data>
+  <data name="txt_id.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_id.Name" xml:space="preserve">
+    <value>txt_id</value>
+  </data>
+  <data name="&gt;&gt;txt_id.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_id.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_id.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Guna2HtmlLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Guna2HtmlLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="Guna2HtmlLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 28</value>
+  </data>
+  <data name="Guna2HtmlLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Guna2HtmlLabel3.Text" xml:space="preserve">
+    <value>ລະຫັດສິນຄ້າ :</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel3.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel3</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel3.Parent" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Guna2GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 12pt</value>
+  </data>
+  <data name="Guna2GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="Guna2GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 519</value>
+  </data>
+  <data name="Guna2GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Guna2GroupBox1.Text" xml:space="preserve">
+    <value>ຂໍ້ມູນທັງໝົດ</value>
+  </data>
+  <data name="&gt;&gt;Guna2GroupBox1.Name" xml:space="preserve">
+    <value>Guna2GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2GroupBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GroupBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2GroupBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dataviewProduct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="dataviewProduct.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataviewProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 97</value>
+  </data>
+  <data name="dataviewProduct.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataviewProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 554</value>
+  </data>
+  <data name="dataviewProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataviewProduct.Name" xml:space="preserve">
+    <value>dataviewProduct</value>
+  </data>
+  <data name="&gt;&gt;dataviewProduct.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DataGridView, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataviewProduct.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataviewProduct.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="btn_save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 606</value>
+  </data>
+  <data name="btn_save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="btn_save.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_save.Text" xml:space="preserve">
+    <value>ບັນທຶກ</value>
+  </data>
+  <data name="&gt;&gt;btn_save.Name" xml:space="preserve">
+    <value>btn_save</value>
+  </data>
+  <data name="&gt;&gt;btn_save.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_save.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_sav.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="btn_sav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 606</value>
+  </data>
+  <data name="btn_sav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="btn_sav.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_sav.Text" xml:space="preserve">
+    <value>ອັບເດດ</value>
+  </data>
+  <data name="&gt;&gt;btn_sav.Name" xml:space="preserve">
+    <value>btn_sav</value>
+  </data>
+  <data name="&gt;&gt;btn_sav.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_sav.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_sav.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_delete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="btn_delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 606</value>
+  </data>
+  <data name="btn_delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="btn_delete.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_delete.Text" xml:space="preserve">
+    <value>ລົບ</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.Name" xml:space="preserve">
+    <value>btn_delete</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Guna2HtmlLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Noto Sans Lao UI SemCond, 14.249999pt</value>
+  </data>
+  <data name="Guna2HtmlLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 56</value>
+  </data>
+  <data name="Guna2HtmlLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 28</value>
+  </data>
+  <data name="Guna2HtmlLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Guna2HtmlLabel2.Text" xml:space="preserve">
+    <value>ລາຍລະອຽດ ແລະ ສິນຄ້າທັງໝົດ</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel2.Name" xml:space="preserve">
+    <value>Guna2HtmlLabel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2HtmlLabel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_search.AccessibleDescription" xml:space="preserve">
+    <value>aaaaa</value>
+  </data>
+  <data name="txt_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt</value>
+  </data>
+  <data name="txt_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>727, 56</value>
+  </data>
+  <data name="txt_search.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 34</value>
+  </data>
+  <data name="txt_search.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Name" xml:space="preserve">
+    <value>txt_search</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_search.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Saysettha OT, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1002, 56</value>
+  </data>
+  <data name="Guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 35</value>
+  </data>
+  <data name="Guna2Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Guna2Button1.Text" xml:space="preserve">
+    <value>ລ້າງ</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.Name" xml:space="preserve">
+    <value>Guna2Button1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Phetsarath OT, 12pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 606</value>
+  </data>
+  <data name="Guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="Guna2Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Guna2Button2.Text" xml:space="preserve">
+    <value>ລ້າງ</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.Name" xml:space="preserve">
+    <value>Guna2Button2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Guna2Button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Showcard Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1187, 13</value>
+  </data>
+  <data name="Guna2Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 27</value>
+  </data>
+  <data name="Guna2Button4.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Guna2Button4.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.Name" xml:space="preserve">
+    <value>Guna2Button4</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1292, 714</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Addproduct1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ProductAll</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

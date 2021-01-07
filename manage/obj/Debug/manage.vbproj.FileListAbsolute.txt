@@ -1,0 +1,233 @@
+D:\Class\VB.net\manage\manage\bin\Debug\manage.exe.config
+D:\Class\VB.net\manage\manage\bin\Debug\manage.exe
+D:\Class\VB.net\manage\manage\bin\Debug\manage.pdb
+D:\Class\VB.net\manage\manage\bin\Debug\manage.xml
+D:\Class\VB.net\manage\manage\obj\Debug\manage.vbprojAssemblyReference.cache
+D:\Class\VB.net\manage\manage\obj\Debug\manage.Resources.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.vbproj.GenerateResource.cache
+D:\Class\VB.net\manage\manage\obj\Debug\manage.vbproj.CoreCompileInputs.cache
+D:\Class\VB.net\manage\manage\obj\Debug\manage.vbproj.CopyComplete
+D:\Class\VB.net\manage\manage\obj\Debug\manage.exe
+D:\Class\VB.net\manage\manage\obj\Debug\manage.xml
+D:\Class\VB.net\manage\manage\obj\Debug\manage.pdb
+D:\Class\VB.net\manage\manage\bin\Debug\Guna.UI2.dll
+D:\Class\VB.net\manage\manage\obj\Debug\manage.Home.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.Login.resources
+D:\Class\VB.net\manage\manage\bin\Debug\MySql.Data.dll
+D:\Class\VB.net\manage\manage\bin\Debug\MySql.Web.dll
+D:\Class\VB.net\manage\manage\bin\Debug\Google.Protobuf.dll
+D:\Class\VB.net\manage\manage\bin\Debug\Zstandard.Net.dll
+D:\Class\VB.net\manage\manage\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Class\VB.net\manage\manage\bin\Debug\BouncyCastle.Crypto.dll
+D:\Class\VB.net\manage\manage\bin\Debug\Ubiety.Dns.Core.dll
+D:\Class\VB.net\manage\manage\bin\Debug\Renci.SshNet.dll
+D:\Class\VB.net\manage\manage\bin\Debug\System.Memory.dll
+D:\Class\VB.net\manage\manage\bin\Debug\System.Buffers.dll
+D:\Class\VB.net\manage\manage\bin\Debug\K4os.Compression.LZ4.dll
+D:\Class\VB.net\manage\manage\bin\Debug\K4os.Hash.xxHash.dll
+D:\Class\VB.net\manage\manage\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Class\VB.net\manage\manage\bin\Debug\MySql.Data.xml
+D:\Class\VB.net\manage\manage\bin\Debug\MySql.Web.xml
+D:\Class\VB.net\manage\manage\obj\Debug\manage.exe.config
+D:\Class\VB.net\manage\manage\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+D:\Class\VB.net\manage\manage\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+D:\Class\VB.net\manage\manage\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+D:\Class\VB.net\manage\manage\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+D:\Class\VB.net\manage\manage\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Class\VB.net\manage\manage\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Class\VB.net\manage\manage\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Class\VB.net\manage\manage\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\Class\VB.net\manage\manage\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Class\VB.net\manage\manage\obj\Debug\manage.ManageUser.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.teacher.resources
+D:\Class\VB.net\manage\manage\bin\Debug\Interop.WMPLib.dll
+D:\Class\VB.net\manage\manage\bin\Debug\AxInterop.WMPLib.dll
+D:\Class\VB.net\manage\manage\obj\Debug\Interop.WMPLib.dll
+D:\Class\VB.net\manage\manage\obj\Debug\AxInterop.WMPLib.dll
+D:\Class\VB.net\manage\manage\obj\Debug\manage.vbproj.ResolveComReference.cache
+D:\Class\VB.net\manage\manage\obj\Debug\manage.formSell.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.products.resources
+D:\Class\VB.net\manage\manage\bin\Debug\en-AI\manage.resources.dll
+D:\Class\VB.net\manage\manage\obj\Debug\en-AI\manage.resources.dll
+D:\Class\VB.net\manage\manage\obj\Debug\manage.AddProduct.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.ProductAll.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.ProductAll.en-AI.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.addcat.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.Historysell.resources
+D:\Class\VB.net\manage\manage\obj\Debug\manage.formCustormer.resources
+D:\Class\VB.net\manage\manage\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.Shared.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Class\VB.net\manage\manage\bin\Debug\ShockwaveFlashObjects.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Class\VB.net\manage\manage\bin\Debug\stdole.dll
+D:\Class\VB.net\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Class\VB.net\manage\manage\obj\Debug\manage.report.resources
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\manage.exe.config
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\manage.exe
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\manage.pdb
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\manage.xml
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\en-AI\manage.resources.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Guna.UI2.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\MySql.Data.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\MySql.Web.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Google.Protobuf.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Zstandard.Net.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Renci.SshNet.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\stdole.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\System.Buffers.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\System.Memory.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\MySql.Data.xml
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\MySql.Web.xml
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\Interop.WMPLib.dll
+C:\Users\bieso\Desktop\manage\manage\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.vbprojAssemblyReference.cache
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.exe.config
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\Interop.WMPLib.dll
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.vbproj.ResolveComReference.cache
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.addcat.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.formCustormer.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.ProductAll.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.AddProduct.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.formSell.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.Home.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.Login.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.ManageUser.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.Resources.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.products.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.Historysell.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.report.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.teacher.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.ProductAll.en-AI.resources
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.vbproj.GenerateResource.cache
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.vbproj.CoreCompileInputs.cache
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\en-AI\manage.resources.dll
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.vbproj.CopyComplete
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.exe
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.xml
+C:\Users\bieso\Desktop\manage\manage\obj\Debug\manage.pdb
+D:\Class\VB.net\manage\manage\obj\Debug\manage.Bills.resources
+D:\VDO Download\Compressed\manage\manage\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\manage.exe.config
+D:\VDO Download\Compressed\manage\manage\bin\Debug\manage.exe
+D:\VDO Download\Compressed\manage\manage\bin\Debug\manage.pdb
+D:\VDO Download\Compressed\manage\manage\bin\Debug\manage.xml
+D:\VDO Download\Compressed\manage\manage\bin\Debug\en-AI\manage.resources.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\AxShockwaveFlashObjects.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.Shared.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Guna.UI2.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\ShockwaveFlashObjects.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Google.Protobuf.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Zstandard.Net.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\BouncyCastle.Crypto.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Ubiety.Dns.Core.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Renci.SshNet.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\stdole.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\System.Memory.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\System.Buffers.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\K4os.Compression.LZ4.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\K4os.Hash.xxHash.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\System.Numerics.Vectors.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\MySql.Data.xml
+D:\VDO Download\Compressed\manage\manage\bin\Debug\MySql.Web.xml
+D:\VDO Download\Compressed\manage\manage\bin\Debug\Interop.WMPLib.dll
+D:\VDO Download\Compressed\manage\manage\bin\Debug\AxInterop.WMPLib.dll
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.vbprojAssemblyReference.cache
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.exe.config
+D:\VDO Download\Compressed\manage\manage\obj\Debug\Interop.WMPLib.dll
+D:\VDO Download\Compressed\manage\manage\obj\Debug\AxInterop.WMPLib.dll
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.vbproj.ResolveComReference.cache
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.addcat.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.Bills.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.formCustormer.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.ProductAll.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.AddProduct.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.formSell.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.Home.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.Login.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.ManageUser.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.Resources.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.products.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.Historysell.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.report.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.teacher.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.ProductAll.en-AI.resources
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.vbproj.GenerateResource.cache
+D:\VDO Download\Compressed\manage\manage\obj\Debug\en-AI\manage.resources.dll
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.vbproj.CopyComplete
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.exe
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.xml
+D:\VDO Download\Compressed\manage\manage\obj\Debug\manage.pdb
+D:\Class\VB.net\manage\manage\bin\Debug\System.Numerics.Vectors.dll
+D:\Class\VB.net\manage\manage\obj\Debug\manage.printHostory.resources
