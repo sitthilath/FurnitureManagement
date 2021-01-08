@@ -30,6 +30,7 @@ Partial Class ManageUser
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.picture_user = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.viewAlluser = New Guna.UI2.WinForms.Guna2DataGridView()
@@ -55,7 +56,6 @@ Partial Class ManageUser
         Me.txt_surname = New Guna.UI2.WinForms.Guna2TextBox()
         Me.txt_name = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.label_admin = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2HtmlToolTip1 = New Guna.UI2.WinForms.Guna2HtmlToolTip()
         Me.openfile_user = New System.Windows.Forms.OpenFileDialog()
@@ -112,7 +112,7 @@ Partial Class ManageUser
         Me.Guna2GroupBox1.Location = New System.Drawing.Point(10, 83)
         Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
         Me.Guna2GroupBox1.ShadowDecoration.Parent = Me.Guna2GroupBox1
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(1123, 708)
+        Me.Guna2GroupBox1.Size = New System.Drawing.Size(1108, 693)
         Me.Guna2GroupBox1.TabIndex = 1
         Me.Guna2GroupBox1.Text = "ຂໍ້ມູນທົ່ວໄປ ກ່ຽວກັບພະນັກງານຂາຍ"
         '
@@ -155,6 +155,31 @@ Partial Class ManageUser
         Me.Label10.Size = New System.Drawing.Size(48, 23)
         Me.Label10.TabIndex = 25
         Me.Label10.Text = "*Auto"
+        '
+        'Guna2ComboBox2
+        '
+        Me.Guna2ComboBox2.Animated = True
+        Me.Guna2ComboBox2.AutoRoundedCorners = True
+        Me.Guna2ComboBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ComboBox2.BorderRadius = 17
+        Me.Guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.Guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox2.FocusedState.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.Guna2ComboBox2.HoverState.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.ItemHeight = 30
+        Me.Guna2ComboBox2.Items.AddRange(New Object() {"All", "Admin", "Seller", "BLOCK"})
+        Me.Guna2ComboBox2.ItemsAppearance.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.Location = New System.Drawing.Point(893, 320)
+        Me.Guna2ComboBox2.Name = "Guna2ComboBox2"
+        Me.Guna2ComboBox2.ShadowDecoration.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.Size = New System.Drawing.Size(133, 36)
+        Me.Guna2ComboBox2.StartIndex = 0
+        Me.Guna2ComboBox2.TabIndex = 7
+        Me.Guna2ComboBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'picture_user
         '
@@ -218,7 +243,7 @@ Partial Class ManageUser
         Me.viewAlluser.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.viewAlluser.RowTemplate.Height = 100
         Me.viewAlluser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.viewAlluser.Size = New System.Drawing.Size(1058, 302)
+        Me.viewAlluser.Size = New System.Drawing.Size(1058, 292)
         Me.viewAlluser.TabIndex = 8
         Me.viewAlluser.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.viewAlluser.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -650,31 +675,6 @@ Partial Class ManageUser
         Me.Guna2HtmlLabel2.TabIndex = 6
         Me.Guna2HtmlLabel2.Text = "ພະນັກງານ"
         '
-        'Guna2ComboBox2
-        '
-        Me.Guna2ComboBox2.Animated = True
-        Me.Guna2ComboBox2.AutoRoundedCorners = True
-        Me.Guna2ComboBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ComboBox2.BorderRadius = 17
-        Me.Guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.Guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox2.FocusedState.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
-        Me.Guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
-        Me.Guna2ComboBox2.HoverState.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.ItemHeight = 30
-        Me.Guna2ComboBox2.Items.AddRange(New Object() {"All", "Admin", "Seller", "BLOCK"})
-        Me.Guna2ComboBox2.ItemsAppearance.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.Location = New System.Drawing.Point(893, 320)
-        Me.Guna2ComboBox2.Name = "Guna2ComboBox2"
-        Me.Guna2ComboBox2.ShadowDecoration.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.Size = New System.Drawing.Size(133, 36)
-        Me.Guna2ComboBox2.StartIndex = 0
-        Me.Guna2ComboBox2.TabIndex = 7
-        Me.Guna2ComboBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'label_admin
         '
         Me.label_admin.BorderRadius = 1
@@ -742,7 +742,7 @@ Partial Class ManageUser
         Me.Guna2Button4.Font = New System.Drawing.Font("Showcard Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
         Me.Guna2Button4.HoverState.Parent = Me.Guna2Button4
-        Me.Guna2Button4.Location = New System.Drawing.Point(1048, 12)
+        Me.Guna2Button4.Location = New System.Drawing.Point(1020, 12)
         Me.Guna2Button4.Name = "Guna2Button4"
         Me.Guna2Button4.ShadowDecoration.Parent = Me.Guna2Button4
         Me.Guna2Button4.Size = New System.Drawing.Size(48, 27)
@@ -753,7 +753,7 @@ Partial Class ManageUser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1108, 640)
+        Me.ClientSize = New System.Drawing.Size(1108, 788)
         Me.Controls.Add(Me.Guna2Button4)
         Me.Controls.Add(Me.Guna2Button3)
         Me.Controls.Add(Me.Guna2Button1)

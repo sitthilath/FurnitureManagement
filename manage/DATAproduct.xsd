@@ -36,14 +36,17 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="history" msprop:Generator_TableClassName="historyDataTable" msprop:Generator_TableVarName="tablehistory" msprop:Generator_TablePropName="history" msprop:Generator_RowDeletingName="historyRowDeleting" msprop:Generator_RowChangingName="historyRowChanging" msprop:Generator_RowEvHandlerName="historyRowChangeEventHandler" msprop:Generator_RowDeletedName="historyRowDeleted" msprop:Generator_UserTableName="history" msprop:Generator_RowChangedName="historyRowChanged" msprop:Generator_RowEvArgName="historyRowChangeEvent" msprop:Generator_RowClassName="historyRow">
+        <xs:element name="history1" msprop:Generator_TableClassName="history1DataTable" msprop:Generator_TableVarName="tablehistory1" msprop:Generator_RowChangedName="history1RowChanged" msprop:Generator_TablePropName="history1" msprop:Generator_RowDeletingName="history1RowDeleting" msprop:Generator_RowChangingName="history1RowChanging" msprop:Generator_RowEvHandlerName="history1RowChangeEventHandler" msprop:Generator_RowDeletedName="history1RowDeleted" msprop:Generator_RowClassName="history1Row" msprop:Generator_UserTableName="history1" msprop:Generator_RowEvArgName="history1RowChangeEvent">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Pid" msprop:Generator_ColumnVarNameInTable="columnpid" msprop:Generator_ColumnPropNameInRow="pid" msprop:Generator_ColumnPropNameInTable="pidColumn" msprop:Generator_UserColumnName="Pid" type="xs:string" minOccurs="0" />
-              <xs:element name="Pname" msprop:Generator_ColumnVarNameInTable="columnpname" msprop:Generator_ColumnPropNameInRow="pname" msprop:Generator_ColumnPropNameInTable="pnameColumn" msprop:Generator_UserColumnName="Pname" type="xs:string" minOccurs="0" />
+              <xs:element name="Pid" msprop:Generator_ColumnVarNameInTable="columnPid" msprop:Generator_ColumnPropNameInRow="Pid" msprop:Generator_ColumnPropNameInTable="PidColumn" msprop:Generator_UserColumnName="Pid" type="xs:long" minOccurs="0" />
+              <xs:element name="Pname" msprop:Generator_ColumnVarNameInTable="columnPname" msprop:Generator_ColumnPropNameInRow="Pname" msprop:Generator_ColumnPropNameInTable="PnameColumn" msprop:Generator_UserColumnName="Pname" type="xs:string" minOccurs="0" />
               <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:string" minOccurs="0" />
-              <xs:element name="sellerr" msprop:Generator_ColumnVarNameInTable="columnsellerr" msprop:Generator_ColumnPropNameInRow="sellerr" msprop:Generator_ColumnPropNameInTable="sellerrColumn" msprop:Generator_UserColumnName="sellerr" type="xs:string" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_UserColumnName="price" type="xs:string" minOccurs="0" />
+              <xs:element name="type_catagory" msprop:Generator_ColumnVarNameInTable="columntype_catagory" msprop:Generator_ColumnPropNameInRow="type_catagory" msprop:Generator_ColumnPropNameInTable="type_catagoryColumn" msprop:Generator_UserColumnName="type_catagory" type="xs:string" minOccurs="0" />
+              <xs:element name="seller" msprop:Generator_ColumnVarNameInTable="columnseller" msprop:Generator_ColumnPropNameInRow="seller" msprop:Generator_ColumnPropNameInTable="sellerColumn" msprop:Generator_UserColumnName="seller" type="xs:string" minOccurs="0" />
               <xs:element name="datetime" msprop:Generator_ColumnVarNameInTable="columndatetime" msprop:Generator_ColumnPropNameInRow="datetime" msprop:Generator_ColumnPropNameInTable="datetimeColumn" msprop:Generator_UserColumnName="datetime" type="xs:string" minOccurs="0" />
+              <xs:element name="bill_id" msprop:Generator_ColumnVarNameInTable="columnbill_id" msprop:Generator_ColumnPropNameInRow="bill_id" msprop:Generator_ColumnPropNameInTable="bill_idColumn" msprop:Generator_UserColumnName="bill_id" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

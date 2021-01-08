@@ -51,7 +51,7 @@ Partial Class formSell
         Me.Guna2Separator3 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txt_c = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.btnCheckCus = New Guna.UI2.WinForms.Guna2Button()
         Me.AxWindowsMediaPlayer1 = New AxWMPLib.AxWindowsMediaPlayer()
@@ -161,9 +161,9 @@ Partial Class formSell
         Me.label_phoneadress.ForeColor = System.Drawing.Color.Black
         Me.label_phoneadress.Location = New System.Drawing.Point(122, 297)
         Me.label_phoneadress.Name = "label_phoneadress"
-        Me.label_phoneadress.Size = New System.Drawing.Size(93, 31)
+        Me.label_phoneadress.Size = New System.Drawing.Size(8, 31)
         Me.label_phoneadress.TabIndex = 36
-        Me.label_phoneadress.Text = "123456789"
+        Me.label_phoneadress.Text = "."
         '
         'label_sendadress
         '
@@ -172,9 +172,9 @@ Partial Class formSell
         Me.label_sendadress.ForeColor = System.Drawing.Color.Black
         Me.label_sendadress.Location = New System.Drawing.Point(131, 250)
         Me.label_sendadress.Name = "label_sendadress"
-        Me.label_sendadress.Size = New System.Drawing.Size(135, 31)
+        Me.label_sendadress.Size = New System.Drawing.Size(8, 31)
         Me.label_sendadress.TabIndex = 35
-        Me.label_sendadress.Text = "XXXXXXXXXXX"
+        Me.label_sendadress.Text = "."
         '
         'label_email
         '
@@ -183,9 +183,9 @@ Partial Class formSell
         Me.label_email.ForeColor = System.Drawing.Color.Black
         Me.label_email.Location = New System.Drawing.Point(131, 214)
         Me.label_email.Name = "label_email"
-        Me.label_email.Size = New System.Drawing.Size(149, 31)
+        Me.label_email.Size = New System.Drawing.Size(8, 31)
         Me.label_email.TabIndex = 34
-        Me.label_email.Text = "XXXX@gmail.com"
+        Me.label_email.Text = "."
         '
         'Guna2HtmlLabel17
         '
@@ -231,9 +231,9 @@ Partial Class formSell
         Me.label_phone.ForeColor = System.Drawing.Color.Black
         Me.label_phone.Location = New System.Drawing.Point(73, 149)
         Me.label_phone.Name = "label_phone"
-        Me.label_phone.Size = New System.Drawing.Size(93, 31)
+        Me.label_phone.Size = New System.Drawing.Size(8, 31)
         Me.label_phone.TabIndex = 8
-        Me.label_phone.Text = "123456789"
+        Me.label_phone.Text = "."
         '
         'label_address
         '
@@ -242,9 +242,9 @@ Partial Class formSell
         Me.label_address.ForeColor = System.Drawing.Color.Black
         Me.label_address.Location = New System.Drawing.Point(73, 112)
         Me.label_address.Name = "label_address"
-        Me.label_address.Size = New System.Drawing.Size(147, 31)
+        Me.label_address.Size = New System.Drawing.Size(8, 31)
         Me.label_address.TabIndex = 7
-        Me.label_address.Text = "XXXXXXXXXXXX"
+        Me.label_address.Text = "."
         '
         'Label_surname
         '
@@ -253,9 +253,9 @@ Partial Class formSell
         Me.Label_surname.ForeColor = System.Drawing.Color.Black
         Me.Label_surname.Location = New System.Drawing.Point(264, 64)
         Me.Label_surname.Name = "Label_surname"
-        Me.Label_surname.Size = New System.Drawing.Size(87, 31)
+        Me.Label_surname.Size = New System.Drawing.Size(8, 31)
         Me.Label_surname.TabIndex = 6
-        Me.Label_surname.Text = "XXXXXXX"
+        Me.Label_surname.Text = "."
         '
         'Guna2HtmlLabel15
         '
@@ -273,9 +273,9 @@ Partial Class formSell
         Me.label_name.ForeColor = System.Drawing.Color.Black
         Me.label_name.Location = New System.Drawing.Point(62, 64)
         Me.label_name.Name = "label_name"
-        Me.label_name.Size = New System.Drawing.Size(111, 31)
+        Me.label_name.Size = New System.Drawing.Size(8, 31)
         Me.label_name.TabIndex = 4
-        Me.label_name.Text = "XXXXXXXXX"
+        Me.label_name.Text = "."
         '
         'Guna2HtmlLabel12
         '
@@ -359,7 +359,7 @@ Partial Class formSell
         'Panel1
         '
         Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel1.Controls.Add(Me.Guna2TextBox1)
+        Me.Panel1.Controls.Add(Me.txt_c)
         Me.Panel1.Controls.Add(Me.Guna2HtmlLabel5)
         Me.Panel1.Controls.Add(Me.btnCheckCus)
         Me.Panel1.Location = New System.Drawing.Point(-1, 252)
@@ -367,33 +367,34 @@ Partial Class formSell
         Me.Panel1.Size = New System.Drawing.Size(380, 92)
         Me.Panel1.TabIndex = 1
         '
-        'Guna2TextBox1
+        'txt_c
         '
-        Me.Guna2TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.txt_c.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2TextBox1.BorderRadius = 8
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Phetsarath OT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(47, 54)
-        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox1.PlaceholderText = ""
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(166, 37)
-        Me.Guna2TextBox1.TabIndex = 23
-        Me.Guna2TextBox1.TextOffset = New System.Drawing.Point(10, 0)
+        Me.txt_c.BorderRadius = 8
+        Me.txt_c.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_c.DefaultText = ""
+        Me.txt_c.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txt_c.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txt_c.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_c.DisabledState.Parent = Me.txt_c
+        Me.txt_c.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txt_c.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_c.FocusedState.Parent = Me.txt_c
+        Me.txt_c.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_c.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_c.HoverState.Parent = Me.txt_c
+        Me.txt_c.Location = New System.Drawing.Point(47, 54)
+        Me.txt_c.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txt_c.Name = "txt_c"
+        Me.txt_c.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txt_c.PlaceholderText = ""
+        Me.txt_c.SelectedText = ""
+        Me.txt_c.ShadowDecoration.Parent = Me.txt_c
+        Me.txt_c.Size = New System.Drawing.Size(166, 37)
+        Me.txt_c.TabIndex = 23
+        Me.txt_c.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txt_c.TextOffset = New System.Drawing.Point(10, 0)
         '
         'Guna2HtmlLabel5
         '
@@ -524,7 +525,7 @@ Partial Class formSell
         Me.txt_Barcode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txt_Barcode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_Barcode.FocusedState.Parent = Me.txt_Barcode
-        Me.txt_Barcode.Font = New System.Drawing.Font("Phetsarath OT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Barcode.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_Barcode.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_Barcode.HoverState.Parent = Me.txt_Barcode
         Me.txt_Barcode.Location = New System.Drawing.Point(495, 95)
@@ -787,7 +788,7 @@ Partial Class formSell
         Me.txt_amoung.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txt_amoung.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_amoung.FocusedState.Parent = Me.txt_amoung
-        Me.txt_amoung.Font = New System.Drawing.Font("Phetsarath OT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_amoung.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold)
         Me.txt_amoung.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_amoung.HoverState.Parent = Me.txt_amoung
         Me.txt_amoung.Location = New System.Drawing.Point(826, 95)
@@ -937,7 +938,7 @@ Partial Class formSell
     Friend WithEvents labelTime As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Guna2NumericUpDown2 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txt_c As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents DGVlistsell As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button

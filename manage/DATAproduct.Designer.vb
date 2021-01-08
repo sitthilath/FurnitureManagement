@@ -29,7 +29,7 @@ Partial Public Class DATAproduct
     
     Private tablelistsell As listsellDataTable
     
-    Private tablehistory As historyDataTable
+    Private tablehistory1 As history1DataTable
     
     Private _schemaSerializationMode As Global.System.Data.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
     
@@ -66,8 +66,8 @@ Partial Public Class DATAproduct
             If (Not (ds.Tables("listsell")) Is Nothing) Then
                 MyBase.Tables.Add(New listsellDataTable(ds.Tables("listsell")))
             End If
-            If (Not (ds.Tables("history")) Is Nothing) Then
-                MyBase.Tables.Add(New historyDataTable(ds.Tables("history")))
+            If (Not (ds.Tables("history1")) Is Nothing) Then
+                MyBase.Tables.Add(New history1DataTable(ds.Tables("history1")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -110,9 +110,9 @@ Partial Public Class DATAproduct
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
      Global.System.ComponentModel.Browsable(false),  _
      Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
-    Public ReadOnly Property history() As historyDataTable
+    Public ReadOnly Property history1() As history1DataTable
         Get
-            Return Me.tablehistory
+            Return Me.tablehistory1
         End Get
     End Property
     
@@ -189,8 +189,8 @@ Partial Public Class DATAproduct
             If (Not (ds.Tables("listsell")) Is Nothing) Then
                 MyBase.Tables.Add(New listsellDataTable(ds.Tables("listsell")))
             End If
-            If (Not (ds.Tables("history")) Is Nothing) Then
-                MyBase.Tables.Add(New historyDataTable(ds.Tables("history")))
+            If (Not (ds.Tables("history1")) Is Nothing) Then
+                MyBase.Tables.Add(New history1DataTable(ds.Tables("history1")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -236,10 +236,10 @@ Partial Public Class DATAproduct
                 Me.tablelistsell.InitVars
             End If
         End If
-        Me.tablehistory = CType(MyBase.Tables("history"),historyDataTable)
+        Me.tablehistory1 = CType(MyBase.Tables("history1"),history1DataTable)
         If (initTable = true) Then
-            If (Not (Me.tablehistory) Is Nothing) Then
-                Me.tablehistory.InitVars
+            If (Not (Me.tablehistory1) Is Nothing) Then
+                Me.tablehistory1.InitVars
             End If
         End If
     End Sub
@@ -256,8 +256,8 @@ Partial Public Class DATAproduct
         MyBase.Tables.Add(Me.tableproduct)
         Me.tablelistsell = New listsellDataTable()
         MyBase.Tables.Add(Me.tablelistsell)
-        Me.tablehistory = New historyDataTable()
-        MyBase.Tables.Add(Me.tablehistory)
+        Me.tablehistory1 = New history1DataTable()
+        MyBase.Tables.Add(Me.tablehistory1)
     End Sub
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -274,7 +274,7 @@ Partial Public Class DATAproduct
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-    Private Function ShouldSerializehistory() As Boolean
+    Private Function ShouldSerializehistory1() As Boolean
         Return false
     End Function
     
@@ -343,7 +343,7 @@ Partial Public Class DATAproduct
     Public Delegate Sub listsellRowChangeEventHandler(ByVal sender As Object, ByVal e As listsellRowChangeEvent)
     
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-    Public Delegate Sub historyRowChangeEventHandler(ByVal sender As Object, ByVal e As historyRowChangeEvent)
+    Public Delegate Sub history1RowChangeEventHandler(ByVal sender As Object, ByVal e As history1RowChangeEvent)
     
     '''<summary>
     '''Represents the strongly named DataTable class.
@@ -984,24 +984,30 @@ Partial Public Class DATAproduct
     '''</summary>
     <Global.System.Serializable(),  _
      Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
-    Partial Public Class historyDataTable
-        Inherits Global.System.Data.TypedTableBase(Of historyRow)
+    Partial Public Class history1DataTable
+        Inherits Global.System.Data.TypedTableBase(Of history1Row)
         
-        Private columnpid As Global.System.Data.DataColumn
+        Private columnPid As Global.System.Data.DataColumn
         
-        Private columnpname As Global.System.Data.DataColumn
+        Private columnPname As Global.System.Data.DataColumn
         
         Private columnqty As Global.System.Data.DataColumn
         
-        Private columnsellerr As Global.System.Data.DataColumn
+        Private columnprice As Global.System.Data.DataColumn
+        
+        Private columntype_catagory As Global.System.Data.DataColumn
+        
+        Private columnseller As Global.System.Data.DataColumn
         
         Private columndatetime As Global.System.Data.DataColumn
+        
+        Private columnbill_id As Global.System.Data.DataColumn
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub New()
             MyBase.New
-            Me.TableName = "history"
+            Me.TableName = "history1"
             Me.BeginInit
             Me.InitClass
             Me.EndInit
@@ -1034,17 +1040,17 @@ Partial Public Class DATAproduct
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property pidColumn() As Global.System.Data.DataColumn
+        Public ReadOnly Property PidColumn() As Global.System.Data.DataColumn
             Get
-                Return Me.columnpid
+                Return Me.columnPid
             End Get
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property pnameColumn() As Global.System.Data.DataColumn
+        Public ReadOnly Property PnameColumn() As Global.System.Data.DataColumn
             Get
-                Return Me.columnpname
+                Return Me.columnPname
             End Get
         End Property
         
@@ -1058,9 +1064,25 @@ Partial Public Class DATAproduct
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property sellerrColumn() As Global.System.Data.DataColumn
+        Public ReadOnly Property priceColumn() As Global.System.Data.DataColumn
             Get
-                Return Me.columnsellerr
+                Return Me.columnprice
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property type_catagoryColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columntype_catagory
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property sellerColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnseller
             End Get
         End Property
         
@@ -1069,6 +1091,14 @@ Partial Public Class DATAproduct
         Public ReadOnly Property datetimeColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columndatetime
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property bill_idColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnbill_id
             End Get
         End Property
         
@@ -1083,44 +1113,44 @@ Partial Public Class DATAproduct
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Default ReadOnly Property Item(ByVal index As Integer) As historyRow
+        Public Default ReadOnly Property Item(ByVal index As Integer) As history1Row
             Get
-                Return CType(Me.Rows(index),historyRow)
+                Return CType(Me.Rows(index),history1Row)
             End Get
         End Property
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event historyRowChanging As historyRowChangeEventHandler
+        Public Event history1RowChanging As history1RowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event historyRowChanged As historyRowChangeEventHandler
+        Public Event history1RowChanged As history1RowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event historyRowDeleting As historyRowChangeEventHandler
+        Public Event history1RowDeleting As history1RowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event historyRowDeleted As historyRowChangeEventHandler
+        Public Event history1RowDeleted As history1RowChangeEventHandler
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Overloads Sub AddhistoryRow(ByVal row As historyRow)
+        Public Overloads Sub Addhistory1Row(ByVal row As history1Row)
             Me.Rows.Add(row)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Overloads Function AddhistoryRow(ByVal pid As String, ByVal pname As String, ByVal qty As String, ByVal sellerr As String, ByVal datetime As String) As historyRow
-            Dim rowhistoryRow As historyRow = CType(Me.NewRow,historyRow)
-            Dim columnValuesArray() As Object = New Object() {pid, pname, qty, sellerr, datetime}
-            rowhistoryRow.ItemArray = columnValuesArray
-            Me.Rows.Add(rowhistoryRow)
-            Return rowhistoryRow
+        Public Overloads Function Addhistory1Row(ByVal Pid As Long, ByVal Pname As String, ByVal qty As String, ByVal price As String, ByVal type_catagory As String, ByVal seller As String, ByVal datetime As String, ByVal bill_id As String) As history1Row
+            Dim rowhistory1Row As history1Row = CType(Me.NewRow,history1Row)
+            Dim columnValuesArray() As Object = New Object() {Pid, Pname, qty, price, type_catagory, seller, datetime, bill_id}
+            rowhistory1Row.ItemArray = columnValuesArray
+            Me.Rows.Add(rowhistory1Row)
+            Return rowhistory1Row
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Overrides Function Clone() As Global.System.Data.DataTable
-            Dim cln As historyDataTable = CType(MyBase.Clone,historyDataTable)
+            Dim cln As history1DataTable = CType(MyBase.Clone,history1DataTable)
             cln.InitVars
             Return cln
         End Function
@@ -1128,66 +1158,67 @@ Partial Public Class DATAproduct
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
-            Return New historyDataTable()
+            Return New history1DataTable()
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Friend Sub InitVars()
-            Me.columnpid = MyBase.Columns("Pid")
-            Me.columnpname = MyBase.Columns("Pname")
+            Me.columnPid = MyBase.Columns("Pid")
+            Me.columnPname = MyBase.Columns("Pname")
             Me.columnqty = MyBase.Columns("qty")
-            Me.columnsellerr = MyBase.Columns("sellerr")
+            Me.columnprice = MyBase.Columns("price")
+            Me.columntype_catagory = MyBase.Columns("type_catagory")
+            Me.columnseller = MyBase.Columns("seller")
             Me.columndatetime = MyBase.Columns("datetime")
+            Me.columnbill_id = MyBase.Columns("bill_id")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Private Sub InitClass()
-            Me.columnpid = New Global.System.Data.DataColumn("Pid", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            Me.columnpid.ExtendedProperties.Add("Generator_ColumnPropNameInRow", "pid")
-            Me.columnpid.ExtendedProperties.Add("Generator_ColumnPropNameInTable", "pidColumn")
-            Me.columnpid.ExtendedProperties.Add("Generator_ColumnVarNameInTable", "columnpid")
-            Me.columnpid.ExtendedProperties.Add("Generator_UserColumnName", "Pid")
-            MyBase.Columns.Add(Me.columnpid)
-            Me.columnpname = New Global.System.Data.DataColumn("Pname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            Me.columnpname.ExtendedProperties.Add("Generator_ColumnPropNameInRow", "pname")
-            Me.columnpname.ExtendedProperties.Add("Generator_ColumnPropNameInTable", "pnameColumn")
-            Me.columnpname.ExtendedProperties.Add("Generator_ColumnVarNameInTable", "columnpname")
-            Me.columnpname.ExtendedProperties.Add("Generator_UserColumnName", "Pname")
-            MyBase.Columns.Add(Me.columnpname)
+            Me.columnPid = New Global.System.Data.DataColumn("Pid", GetType(Long), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPid)
+            Me.columnPname = New Global.System.Data.DataColumn("Pname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPname)
             Me.columnqty = New Global.System.Data.DataColumn("qty", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnqty)
-            Me.columnsellerr = New Global.System.Data.DataColumn("sellerr", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnsellerr)
+            Me.columnprice = New Global.System.Data.DataColumn("price", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnprice)
+            Me.columntype_catagory = New Global.System.Data.DataColumn("type_catagory", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columntype_catagory)
+            Me.columnseller = New Global.System.Data.DataColumn("seller", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnseller)
             Me.columndatetime = New Global.System.Data.DataColumn("datetime", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columndatetime)
+            Me.columnbill_id = New Global.System.Data.DataColumn("bill_id", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnbill_id)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function NewhistoryRow() As historyRow
-            Return CType(Me.NewRow,historyRow)
+        Public Function Newhistory1Row() As history1Row
+            Return CType(Me.NewRow,history1Row)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
-            Return New historyRow(builder)
+            Return New history1Row(builder)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Function GetRowType() As Global.System.Type
-            Return GetType(historyRow)
+            Return GetType(history1Row)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowChanged(e)
-            If (Not (Me.historyRowChangedEvent) Is Nothing) Then
-                RaiseEvent historyRowChanged(Me, New historyRowChangeEvent(CType(e.Row,historyRow), e.Action))
+            If (Not (Me.history1RowChangedEvent) Is Nothing) Then
+                RaiseEvent history1RowChanged(Me, New history1RowChangeEvent(CType(e.Row,history1Row), e.Action))
             End If
         End Sub
         
@@ -1195,8 +1226,8 @@ Partial Public Class DATAproduct
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowChanging(e)
-            If (Not (Me.historyRowChangingEvent) Is Nothing) Then
-                RaiseEvent historyRowChanging(Me, New historyRowChangeEvent(CType(e.Row,historyRow), e.Action))
+            If (Not (Me.history1RowChangingEvent) Is Nothing) Then
+                RaiseEvent history1RowChanging(Me, New history1RowChangeEvent(CType(e.Row,history1Row), e.Action))
             End If
         End Sub
         
@@ -1204,8 +1235,8 @@ Partial Public Class DATAproduct
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowDeleted(e)
-            If (Not (Me.historyRowDeletedEvent) Is Nothing) Then
-                RaiseEvent historyRowDeleted(Me, New historyRowChangeEvent(CType(e.Row,historyRow), e.Action))
+            If (Not (Me.history1RowDeletedEvent) Is Nothing) Then
+                RaiseEvent history1RowDeleted(Me, New history1RowChangeEvent(CType(e.Row,history1Row), e.Action))
             End If
         End Sub
         
@@ -1213,14 +1244,14 @@ Partial Public Class DATAproduct
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowDeleting(e)
-            If (Not (Me.historyRowDeletingEvent) Is Nothing) Then
-                RaiseEvent historyRowDeleting(Me, New historyRowChangeEvent(CType(e.Row,historyRow), e.Action))
+            If (Not (Me.history1RowDeletingEvent) Is Nothing) Then
+                RaiseEvent history1RowDeleting(Me, New history1RowChangeEvent(CType(e.Row,history1Row), e.Action))
             End If
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub RemovehistoryRow(ByVal row As historyRow)
+        Public Sub Removehistory1Row(ByVal row As history1Row)
             Me.Rows.Remove(row)
         End Sub
         
@@ -1247,7 +1278,7 @@ Partial Public Class DATAproduct
             type.Attributes.Add(attribute1)
             Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
             attribute2.Name = "tableTypeName"
-            attribute2.FixedValue = "historyDataTable"
+            attribute2.FixedValue = "history1DataTable"
             type.Attributes.Add(attribute2)
             type.Particle = sequence
             Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
@@ -1650,45 +1681,45 @@ Partial Public Class DATAproduct
     '''<summary>
     '''Represents strongly named DataRow class.
     '''</summary>
-    Partial Public Class historyRow
+    Partial Public Class history1Row
         Inherits Global.System.Data.DataRow
         
-        Private tablehistory As historyDataTable
+        Private tablehistory1 As history1DataTable
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
             MyBase.New(rb)
-            Me.tablehistory = CType(Me.Table,historyDataTable)
+            Me.tablehistory1 = CType(Me.Table,history1DataTable)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property pid() As String
+        Public Property Pid() As Long
             Get
                 Try 
-                    Return CType(Me(Me.tablehistory.pidColumn),String)
+                    Return CType(Me(Me.tablehistory1.PidColumn),Long)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Pid' in table 'history' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Pid' in table 'history1' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablehistory.pidColumn) = value
+                Me(Me.tablehistory1.PidColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property pname() As String
+        Public Property Pname() As String
             Get
                 Try 
-                    Return CType(Me(Me.tablehistory.pnameColumn),String)
+                    Return CType(Me(Me.tablehistory1.PnameColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Pname' in table 'history' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Pname' in table 'history1' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablehistory.pnameColumn) = value
+                Me(Me.tablehistory1.PnameColumn) = value
             End Set
         End Property
         
@@ -1697,28 +1728,58 @@ Partial Public Class DATAproduct
         Public Property qty() As String
             Get
                 Try 
-                    Return CType(Me(Me.tablehistory.qtyColumn),String)
+                    Return CType(Me(Me.tablehistory1.qtyColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'qty' in table 'history' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'qty' in table 'history1' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablehistory.qtyColumn) = value
+                Me(Me.tablehistory1.qtyColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Property sellerr() As String
+        Public Property price() As String
             Get
                 Try 
-                    Return CType(Me(Me.tablehistory.sellerrColumn),String)
+                    Return CType(Me(Me.tablehistory1.priceColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'sellerr' in table 'history' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'price' in table 'history1' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablehistory.sellerrColumn) = value
+                Me(Me.tablehistory1.priceColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property type_catagory() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tablehistory1.type_catagoryColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'type_catagory' in table 'history1' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablehistory1.type_catagoryColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property seller() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tablehistory1.sellerColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'seller' in table 'history1' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablehistory1.sellerColumn) = value
             End Set
         End Property
         
@@ -1727,74 +1788,125 @@ Partial Public Class DATAproduct
         Public Property datetime() As String
             Get
                 Try 
-                    Return CType(Me(Me.tablehistory.datetimeColumn),String)
+                    Return CType(Me(Me.tablehistory1.datetimeColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'datetime' in table 'history' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'datetime' in table 'history1' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablehistory.datetimeColumn) = value
+                Me(Me.tablehistory1.datetimeColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function IspidNull() As Boolean
-            Return Me.IsNull(Me.tablehistory.pidColumn)
+        Public Property bill_id() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tablehistory1.bill_idColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'bill_id' in table 'history1' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablehistory1.bill_idColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsPidNull() As Boolean
+            Return Me.IsNull(Me.tablehistory1.PidColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub SetpidNull()
-            Me(Me.tablehistory.pidColumn) = Global.System.Convert.DBNull
+        Public Sub SetPidNull()
+            Me(Me.tablehistory1.PidColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function IspnameNull() As Boolean
-            Return Me.IsNull(Me.tablehistory.pnameColumn)
+        Public Function IsPnameNull() As Boolean
+            Return Me.IsNull(Me.tablehistory1.PnameColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub SetpnameNull()
-            Me(Me.tablehistory.pnameColumn) = Global.System.Convert.DBNull
+        Public Sub SetPnameNull()
+            Me(Me.tablehistory1.PnameColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsqtyNull() As Boolean
-            Return Me.IsNull(Me.tablehistory.qtyColumn)
+            Return Me.IsNull(Me.tablehistory1.qtyColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetqtyNull()
-            Me(Me.tablehistory.qtyColumn) = Global.System.Convert.DBNull
+            Me(Me.tablehistory1.qtyColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function IssellerrNull() As Boolean
-            Return Me.IsNull(Me.tablehistory.sellerrColumn)
+        Public Function IspriceNull() As Boolean
+            Return Me.IsNull(Me.tablehistory1.priceColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub SetsellerrNull()
-            Me(Me.tablehistory.sellerrColumn) = Global.System.Convert.DBNull
+        Public Sub SetpriceNull()
+            Me(Me.tablehistory1.priceColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function Istype_catagoryNull() As Boolean
+            Return Me.IsNull(Me.tablehistory1.type_catagoryColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub Settype_catagoryNull()
+            Me(Me.tablehistory1.type_catagoryColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IssellerNull() As Boolean
+            Return Me.IsNull(Me.tablehistory1.sellerColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetsellerNull()
+            Me(Me.tablehistory1.sellerColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsdatetimeNull() As Boolean
-            Return Me.IsNull(Me.tablehistory.datetimeColumn)
+            Return Me.IsNull(Me.tablehistory1.datetimeColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetdatetimeNull()
-            Me(Me.tablehistory.datetimeColumn) = Global.System.Convert.DBNull
+            Me(Me.tablehistory1.datetimeColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function Isbill_idNull() As Boolean
+            Return Me.IsNull(Me.tablehistory1.bill_idColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub Setbill_idNull()
+            Me(Me.tablehistory1.bill_idColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -1874,16 +1986,16 @@ Partial Public Class DATAproduct
     '''Row event argument class
     '''</summary>
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-    Public Class historyRowChangeEvent
+    Public Class history1RowChangeEvent
         Inherits Global.System.EventArgs
         
-        Private eventRow As historyRow
+        Private eventRow As history1Row
         
         Private eventAction As Global.System.Data.DataRowAction
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub New(ByVal row As historyRow, ByVal action As Global.System.Data.DataRowAction)
+        Public Sub New(ByVal row As history1Row, ByVal action As Global.System.Data.DataRowAction)
             MyBase.New
             Me.eventRow = row
             Me.eventAction = action
@@ -1891,7 +2003,7 @@ Partial Public Class DATAproduct
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Row() As historyRow
+        Public ReadOnly Property Row() As history1Row
             Get
                 Return Me.eventRow
             End Get

@@ -16,7 +16,11 @@ Public Class formSell
 
     Private Sub formSell_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txt_Barcode.Focus()
+        If (txt_amoung.Text = "" Or txt_amoung.Text <= 0) Then
+            MsgBox("ບໍ່ມິຈຳນວນສິນຄ້າ")
+            Return
 
+        End If
         Timer1.Start()
         'labelDate.Text = DateTime.Now.ToLongDateString("dd/MM/yyyy")
         labelDate.Text = DateTime.Now.ToString("ວັນທີ : " + "dd/MM/yyyy")
@@ -151,7 +155,7 @@ Public Class formSell
 
 
                         cmd_updateQTY.ExecuteScalar()
-
+                        txt_Barcode.Text = ""
                         '    connection.Close()
 
                     End If
@@ -187,7 +191,7 @@ Public Class formSell
 
                         cmd_insert.ExecuteScalar()
 
-
+                        txt_Barcode.Text = ""
                     End If
                     'End Insert Product To ListSell
 
@@ -218,7 +222,8 @@ Public Class formSell
             connection.Open()
 
             Dim table As New DataTable()
-            Dim adapter As New MySqlDataAdapter("SELECT  `Pid`, `Pname`, `qty`, `price`, `type_catagory`, `seller` FROM `listsell` ", connection)
+            Dim adapter As New MySqlDataAdapter("SELECT  `Pid`, `Pname`, `qty`, `price`, catagory.type_catagory, seller from listsell INNER JOIN catagory ON catagory.CID = listsell.type_catagory", connection)
+
             adapter.Fill(table)
             DGVlistsell.DataSource = table
             DGVlistsell.RowHeadersVisible = True
@@ -401,17 +406,17 @@ Public Class formSell
             Dim cmd_checkExist As New MySqlCommand
             cmd_checkExist.CommandText = "SELECT count(*) from customer where cid = @cid"
             cmd_checkExist.Connection = connection
-            cmd_checkExist.Parameters.AddWithValue("@cid", Guna2TextBox1.Text)
+            cmd_checkExist.Parameters.AddWithValue("@cid", txt_c.Text)
             Dim count = Convert.ToInt32(cmd_checkExist.ExecuteScalar())
             'End Check
             If count >= 1 Then
-                MsgBox("Complete")
+
 
                 'show info customer
                 Dim cmd_info As New MySqlCommand
                 cmd_info.CommandText = "SELECT * from customer where cid = @cid"
                 cmd_info.Connection = connection
-                cmd_info.Parameters.AddWithValue("@cid", Guna2TextBox1.Text)
+                cmd_info.Parameters.AddWithValue("@cid", txt_c.Text)
                 dr = cmd_info.ExecuteReader()
 
                 If dr.Read() Then
@@ -426,7 +431,7 @@ Public Class formSell
                 End If
                 dr.Close()
             Else
-                MsgBox("No Result")
+                MsgBox("ບໍ່ມີຂໍ້ມູນ")
             End If
 
 
@@ -458,42 +463,48 @@ Public Class formSell
     Private Sub btn_UpdateAmoung_Click(sender As Object, e As EventArgs) Handles btn_UpdateAmoung.Click
 
         Try
+            If (txt_amoung.Text = "" Or txt_amoung.Text <= 0 And txt_Barcode.Text = "") Then
+                MsgBox("ບໍ່ມິຈຳນວນສິນຄ້າ")
+                txt_amoung.Text = 1
+                Return
 
+            End If
             connection.Open()
-            Dim cmd_select As New MySqlCommand
-            cmd_select.CommandText = "SELECT * from product where id='" & txt_Barcode.Text & "'"
-            cmd_select.Connection = connection
-            dr = cmd_select.ExecuteReader()
+                Dim cmd_select As New MySqlCommand
+                cmd_select.CommandText = "SELECT * from product where id='" & txt_Barcode.Text & "'"
+                cmd_select.Connection = connection
+                dr = cmd_select.ExecuteReader()
 
-            Dim Pqty As Integer
+                Dim Pqty As Integer
 
-            If dr.HasRows Then
-                dr.Read()
-                Pqty = dr.Item("qty")
-            End If
-            dr.Close()
+                If dr.HasRows Then
+                    dr.Read()
+                    Pqty = dr.Item("qty")
+                End If
+                dr.Close()
 
-            Dim amoung As Integer
-            amoung = txt_amoung.Text
+                Dim amoung As Integer
+                amoung = txt_amoung.Text
 
-            If Pqty = 0 Then
-                MsgBox("ສິນຄ້າໃນຄັງບໍ່ພຽງພໍ!")
-            ElseIf Pqty - amoung <= -1 Then
-                MsgBox("ສິນຄ້າໃນຄັງບໍ່ພຽງພໍ!")
-            Else
-                Dim cmd_update As New MySqlCommand
-                cmd_update.Connection = connection
-                cmd_update.CommandType = CommandType.Text
-                cmd_update.CommandText = " update listsell set qty=@qty where Pid=@pid"
-                cmd_update.Parameters.AddWithValue("@pid", txt_Barcode.Text)
-                cmd_update.Parameters.AddWithValue("@qty", amoung)
+                If Pqty = 0 Then
+                    MsgBox("ສິນຄ້າໃນຄັງບໍ່ພຽງພໍ!")
+                ElseIf Pqty - amoung <= -1 Then
+                    MsgBox("ສິນຄ້າໃນຄັງບໍ່ພຽງພໍ!")
+                Else
+                    Dim cmd_update As New MySqlCommand
+                    cmd_update.Connection = connection
+                    cmd_update.CommandType = CommandType.Text
+                    cmd_update.CommandText = " update listsell set qty=@qty where Pid=@pid"
+                    cmd_update.Parameters.AddWithValue("@pid", txt_Barcode.Text)
+                    cmd_update.Parameters.AddWithValue("@qty", amoung)
                 cmd_update.ExecuteScalar()
+                txt_Barcode.Text = ""
             End If
 
-            connection.Close()
-            loopMoneys()
-        Catch ex As Exception
-            MsgBox(ex.Message)
+                connection.Close()
+                loopMoneys()
+            Catch ex As Exception
+                MsgBox(ex.Message)
         End Try
         show_data()
 
@@ -530,4 +541,26 @@ Public Class formSell
     Private Sub Guna2Button8_Click(sender As Object, e As EventArgs) Handles Guna2Button8.Click
         Me.Close()
     End Sub
+
+    Private Sub txt_amoung_TextChanged(sender As Object, e As EventArgs) Handles txt_amoung.TextChanged
+
+    End Sub
+
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+        clear()
+
+    End Sub
+    Sub clear()
+        label_name.Text = "."
+        Label_surname.Text = "."
+        label_phone.Text = "."
+        label_address.Text = "."
+        label_phoneadress.Text = "."
+        label_email.Text = "."
+        label_sendadress.Text = "."
+        txt_Barcode.Text = ""
+        txt_amoung.Text = "1"
+        txt_c.Text = ""
+    End Sub
+
 End Class

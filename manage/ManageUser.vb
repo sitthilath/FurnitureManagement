@@ -266,16 +266,16 @@ Public Class ManageUser
             viewAlluser.Columns(8).HeaderText = "ສະຖານະ"
             viewAlluser.Columns(9).HeaderText = "ຮູບ"
 
-            viewAlluser.Columns(0).Width = 50
-            viewAlluser.Columns(1).Width = 110
-            viewAlluser.Columns(2).Width = 120
-            viewAlluser.Columns(3).Width = 70
-            viewAlluser.Columns(4).Width = 70
-            viewAlluser.Columns(5).Width = 120
-            viewAlluser.Columns(6).Width = 130
-            viewAlluser.Columns(7).Width = 0
-            viewAlluser.Columns(8).Width = 110
-            viewAlluser.Columns(9).Width = 200
+            'viewAlluser.Columns(0).Width = 50
+            'viewAlluser.Columns(1).Width = 110
+            'viewAlluser.Columns(2).Width = 120
+            'viewAlluser.Columns(3).Width = 70
+            'viewAlluser.Columns(4).Width = 70
+            'viewAlluser.Columns(5).Width = 120
+            'viewAlluser.Columns(6).Width = 130
+            ' viewAlluser.Columns(7).Width = 0
+            'viewAlluser.Columns(8).Width = 110
+            'viewAlluser.Columns(9).Width = 200
 
 
 

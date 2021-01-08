@@ -100,10 +100,10 @@ Partial Class Historysell
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Saysettha OT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(12, 12)
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Saysettha OT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(8, 9)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(302, 36)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(346, 39)
         Me.Guna2HtmlLabel1.TabIndex = 1
         Me.Guna2HtmlLabel1.Text = "ການຂາຍພາຍໃນຮ້ານ Index Future"
         '
@@ -169,7 +169,7 @@ Partial Class Historysell
         Me.cobo_product.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.cobo_product.HoverState.Parent = Me.cobo_product
         Me.cobo_product.ItemHeight = 30
-        Me.cobo_product.Items.AddRange(New Object() {"ທັງໝົດ", "ສິນຄ້າຂາຍດີ", "ສິນຄ້າຂາຍໄດ້ໜ້ອຍ", "ລາຍງານສິນຄ້າຂາຍດີ 10 ລາຍການ", "ລາຍງານສິນຄ້າຂາຍໄດ້ໜ້ອຍ 10 ລາຍການ", "ລາຍງານສິນຄ້າປະຈຳເດື່ອນນີ້", "ລາຍງານສິນຄ້າເດື່ອນກ່ອນ", "ລາຍງານສິນຄ້າ 2 ເດື່ອນກ່ອນ"})
+        Me.cobo_product.Items.AddRange(New Object() {"ທັງໝົດ", "ສິນຄ້າຂາຍດີ", "ສິນຄ້າຂາຍໄດ້ໜ້ອຍ", "ລາຍງານສິນຄ້າປະຈຳເດືອນນີ້", "ລາຍງານສິນຄ້າເດືອນກ່ອນ"})
         Me.cobo_product.ItemsAppearance.Parent = Me.cobo_product
         Me.cobo_product.Location = New System.Drawing.Point(741, 91)
         Me.cobo_product.Name = "cobo_product"

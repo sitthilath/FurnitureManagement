@@ -62,12 +62,12 @@ Partial Class formCustormer
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Phetsarath OT", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(12, 12)
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Saysettha OT", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(12, 0)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(85, 33)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(173, 39)
         Me.Guna2HtmlLabel1.TabIndex = 0
-        Me.Guna2HtmlLabel1.Text = "ຂໍ້ມູນລູກຄ້າ"
+        Me.Guna2HtmlLabel1.Text = "ຈັດການຂໍ້ມູນລູກຄ້າ"
         '
         'Guna2GroupBox1
         '

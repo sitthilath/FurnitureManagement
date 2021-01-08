@@ -34,7 +34,7 @@ Public Class Bills
         ReportBills.SetParameterValue("label_sendadress", formSell.label_sendadress.Text)
 
 
-        CrystalReportViewer1.ReportSource = ReportBills
+        CRVbill.ReportSource = ReportBills
         'CrystalReportViewer1.RefreshReport()
 
     End Sub
