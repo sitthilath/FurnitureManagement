@@ -222,7 +222,7 @@ Public Class formSell
             connection.Open()
 
             Dim table As New DataTable()
-            Dim adapter As New MySqlDataAdapter("SELECT  `Pid`, `Pname`, `qty`, `price`, catagory.type_catagory, seller from listsell INNER JOIN catagory ON catagory.CID = listsell.type_catagory", connection)
+            Dim adapter As New MySqlDataAdapter("SELECT  `Pid`, `Pname`, `qty`, `price`, type_catagory, seller from listsell ", connection)
 
             adapter.Fill(table)
             DGVlistsell.DataSource = table
