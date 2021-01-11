@@ -160,27 +160,28 @@ Public Class Home
                 If id <> i Then
 
                 Else
-                    Chart1.Series.Add(Setname)
+
 
                     '/////////////////////////
-                    MsgBox("Error")
+
                     Dim cmd_insert As New MySqlCommand
                     cmd_insert.Connection = connection
                     cmd_insert.CommandType = CommandType.Text
                     cmd_insert.CommandText = "Select COUNT(*) FROM aftersell WHERE type_catagory = '" & id & "'"
-                    Dim xChart As String
+                    Dim xChart As Integer
                     xChart = cmd_insert.ExecuteScalar()
 
+                    MsgBox(xChart)
+                    MsgBox(numCat)
+                    'Dim x As Double = numCat
+                    'Dim y As Double = xChart
+                    'Dim z As Double = xChart
+                    'Chart1.Series(0).Points.Add(x)
+                    'Chart1.Series(1).Points.Add(y)
 
-                    Dim x As Double = numCat
-                    Dim y As Double = xChart
-                    Dim z As Double = xChart
-                    Chart1.Series(0).Points.Add(x)
-                    Chart1.Series(1).Points.Add(y)
-                    Chart1.Series(2).Points.Add(z)
-                    Chart1.Series(3).Points.Add(x)
-                    Chart1.Series(4).Points.Add(y)
-                    Chart1.Series(5).Points.Add(z)
+                    Me.Chart1.Series("numType").Points.AddXY(Setname, xChart)
+
+
                 End If
             Next
 
@@ -234,6 +235,10 @@ Public Class Home
 
     Private Sub Guna2Button1_Click_2(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         panelMain.Controls.Clear()
+
+    End Sub
+
+    Private Sub Chart1_Click(sender As Object, e As EventArgs) Handles Chart1.Click
 
     End Sub
 End Class

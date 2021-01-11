@@ -14,7 +14,7 @@ Public Class Historysell
             Try
 
                 Dim table As New DataTable()
-                Dim adapter As New MySqlDataAdapter("SELECT  `Pid`, `Pname`, `qty`, `price`, `type_catagory`, `seller`, `datetime`, `bill_id`FROM aftersell order by qty desc", connection)
+                Dim adapter As New MySqlDataAdapter("SELECT  `Pid`, `Pname`, `qty`, `price`, catagory.type_catagory, `seller`, `datetime`, `bill_id`from aftersell INNER JOIN catagory On catagory.CID = aftersell.type_catagory order by qty desc", connection)
                 adapter.Fill(table)
                 viewAllsell.DataSource = table
                 viewAllsell.RowHeadersVisible = True
@@ -33,7 +33,7 @@ Public Class Historysell
             Try
 
                 Dim table As New DataTable()
-                Dim adapter As New MySqlDataAdapter("SELECT `Pid`, `Pname`, `qty`, `price`, `type_catagory`, `seller`, `datetime`, `bill_id` FROM aftersell order by qty asc", connection)
+                Dim adapter As New MySqlDataAdapter("SELECT `Pid`, `Pname`, `qty`, `price`, catagory.type_catagory, `seller`, `datetime`, `bill_id` from aftersell INNER JOIN catagory On catagory.CID = aftersell.type_catagory order by qty asc", connection)
                 adapter.Fill(table)
                 viewAllsell.DataSource = table
                 viewAllsell.RowHeadersVisible = True
@@ -58,11 +58,15 @@ Public Class Historysell
         ElseIf cobo_product.SelectedItem = "ລາຍງານສິນຄ້າເດືອນກ່ອນ" Then
             connection.Open()
 
-            Dim myDate As DateTime
-            Dim newDate = MonthName(Month(DateAdd("m", -1, Now)), True)
-            MsgBox(newDate)
 
-            Dim SQl = ("SELECT `Pid`, `Pname`, `qty`, `price`, `type_catagory`, `seller`, `datetime`, `bill_id` FROM aftersell WHERE   datetime = '" & newDate & "'  ")
+            Dim currentDate, prev_Date As DateTime
+
+            currentDate = DateTime.Now
+            prev_Date = currentDate.AddMonths(-1)
+
+
+
+            Dim SQl = String.Format("Select  `Pid`, `Pname`, `qty`, `price`, catagory.type_catagory, seller, `datetime`, `bill_id` from aftersell INNER JOIN catagory On catagory.CID = aftersell.type_catagory WHERE   YEAR(datetime) =  '" & prev_Date.Year & "' And MONTH(datetime) =  '" & prev_Date.Month & "'   ")
             Dim table As New DataTable()
             Dim adapter As New MySqlDataAdapter(SQl, connection)
             adapter.Fill(table)
@@ -72,11 +76,17 @@ Public Class Historysell
             connection.Close()
 
 
+
+
         ElseIf cobo_product.SelectedItem = "ລາຍງານສິນຄ້າປະຈຳເດືອນນີ້" Then
             connection.Open()
 
             Dim myDate As DateTime
-            Dim SQl = String.Format("Select `Pid`, `Pname`, `qty`, `price`, `type_catagory`, `seller`, `datetime`, `bill_id` FROM aftersell WHERE YEAR(datetime) = {0} And Month(DateTime) = {1} And Day(DateTime) = {2}", myDate.Year, myDate.Month, myDate.Day)
+            myDate = DateTime.Now
+
+            MsgBox(myDate.Year)
+            MsgBox(myDate.Month)
+            Dim SQl = String.Format("Select `Pid`, `Pname`, `qty`, `price`, catagory.type_catagory, `seller`, `datetime`, `bill_id` from aftersell INNER JOIN catagory On catagory.CID = aftersell.type_catagory WHERE YEAR(datetime) = {0} And Month(DateTime) = {1} ", myDate.Year, myDate.Month)
             Dim table As New DataTable()
             Dim adapter As New MySqlDataAdapter(SQl, connection)
             adapter.Fill(table)

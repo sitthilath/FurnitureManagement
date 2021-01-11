@@ -272,7 +272,6 @@ Public Class formSell
             comm.Parameters.AddWithValue("@type_catagory", DGVlistsell.Rows(i).Cells(4).Value)
             comm.Parameters.AddWithValue("@seller", DGVlistsell.Rows(i).Cells(5).Value)
             comm.Parameters.AddWithValue("@bill_id", showbill_id.Text)
-
             comm.ExecuteScalar()
 
         Next

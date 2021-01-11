@@ -23,9 +23,9 @@ Partial Class Home
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
@@ -97,7 +97,7 @@ Partial Class Home
         '
         Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
         Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Font = New System.Drawing.Font("Nasalization Rg", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
         Me.Guna2Button1.Location = New System.Drawing.Point(0, 650)
@@ -110,40 +110,40 @@ Partial Class Home
         'Guna2HtmlLabel3
         '
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("SF Pro Display", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(27, 185)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(53, 21)
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(57, 22)
         Me.Guna2HtmlLabel3.TabIndex = 17
         Me.Guna2HtmlLabel3.Text = "Statu :"
         '
         'label_statu
         '
         Me.label_statu.BackColor = System.Drawing.Color.Transparent
-        Me.label_statu.Font = New System.Drawing.Font("SF Pro Display", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_statu.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label_statu.Location = New System.Drawing.Point(92, 186)
         Me.label_statu.Name = "label_statu"
-        Me.label_statu.Size = New System.Drawing.Size(36, 21)
+        Me.label_statu.Size = New System.Drawing.Size(39, 22)
         Me.label_statu.TabIndex = 16
         Me.label_statu.Text = "XXX"
         '
         'Guna2HtmlLabel2
         '
         Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("SF Pro Display", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(3, 158)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(79, 21)
+        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(85, 22)
         Me.Guna2HtmlLabel2.TabIndex = 15
         Me.Guna2HtmlLabel2.Text = "Surname :"
         '
         'label_surname
         '
         Me.label_surname.BackColor = System.Drawing.Color.Transparent
-        Me.label_surname.Font = New System.Drawing.Font("SF Pro Display", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_surname.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label_surname.Location = New System.Drawing.Point(94, 159)
         Me.label_surname.Name = "label_surname"
-        Me.label_surname.Size = New System.Drawing.Size(36, 21)
+        Me.label_surname.Size = New System.Drawing.Size(39, 22)
         Me.label_surname.TabIndex = 14
         Me.label_surname.Text = "XXX"
         '
@@ -202,11 +202,11 @@ Partial Class Home
         'lable_name
         '
         Me.lable_name.BackColor = System.Drawing.Color.Transparent
-        Me.lable_name.Font = New System.Drawing.Font("SF Pro Display", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lable_name.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lable_name.ForeColor = System.Drawing.SystemColors.Highlight
         Me.lable_name.Location = New System.Drawing.Point(94, 132)
         Me.lable_name.Name = "lable_name"
-        Me.lable_name.Size = New System.Drawing.Size(36, 21)
+        Me.lable_name.Size = New System.Drawing.Size(39, 22)
         Me.lable_name.TabIndex = 8
         Me.lable_name.Text = "XXX"
         '
@@ -221,7 +221,7 @@ Partial Class Home
         Me.btn_logout.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_logout.CustomImages.Parent = Me.btn_logout
         Me.btn_logout.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_logout.Font = New System.Drawing.Font("SF Pro Display", 11.25!)
+        Me.btn_logout.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
         Me.btn_logout.ForeColor = System.Drawing.Color.White
         Me.btn_logout.HoverState.Parent = Me.btn_logout
         Me.btn_logout.Location = New System.Drawing.Point(33, 740)
@@ -243,7 +243,7 @@ Partial Class Home
         Me.btn_report.CheckedState.Parent = Me.btn_report
         Me.btn_report.CustomImages.Parent = Me.btn_report
         Me.btn_report.FillColor = System.Drawing.Color.White
-        Me.btn_report.Font = New System.Drawing.Font("Lao_Classic3", 15.75!)
+        Me.btn_report.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
         Me.btn_report.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btn_report.HoverState.Parent = Me.btn_report
         Me.btn_report.Image = Global.manage.My.Resources.Resources._90417
@@ -347,20 +347,20 @@ Partial Class Home
         'showuser
         '
         Me.showuser.BackColor = System.Drawing.Color.Transparent
-        Me.showuser.Font = New System.Drawing.Font("SF Pro Display", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.showuser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.showuser.Location = New System.Drawing.Point(33, 131)
         Me.showuser.Name = "showuser"
-        Me.showuser.Size = New System.Drawing.Size(47, 21)
+        Me.showuser.Size = New System.Drawing.Size(51, 22)
         Me.showuser.TabIndex = 1
         Me.showuser.Text = "User :"
         '
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Noto Sans Lao ExtCond Thin", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(488, 217)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(94, 46)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(75, 33)
         Me.Guna2HtmlLabel1.TabIndex = 3
         Me.Guna2HtmlLabel1.Text = "Home"
         '
@@ -396,17 +396,17 @@ Partial Class Home
         '
         'Chart1
         '
-        ChartArea3.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea3)
-        Legend3.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend3)
+        ChartArea1.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea1)
+        Legend1.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend1)
         Me.Chart1.Location = New System.Drawing.Point(59, 71)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright
-        Series3.ChartArea = "ChartArea1"
-        Series3.Legend = "Legend1"
-        Series3.Name = "Series1"
-        Me.Chart1.Series.Add(Series3)
+        Series1.ChartArea = "ChartArea1"
+        Series1.Legend = "Legend1"
+        Series1.Name = "numType"
+        Me.Chart1.Series.Add(Series1)
         Me.Chart1.Size = New System.Drawing.Size(655, 321)
         Me.Chart1.TabIndex = 4
         '
